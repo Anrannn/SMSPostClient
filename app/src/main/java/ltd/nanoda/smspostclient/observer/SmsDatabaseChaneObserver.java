@@ -109,7 +109,7 @@ public class SmsDatabaseChaneObserver extends ContentObserver {
                     OkHttpClient client = new OkHttpClient();
                     RequestBody body1 = RequestBody.create(JSON,json);
                     Request request = new Request.Builder()
-                            .url("https://nanoda.ltd:8899/InsertSmsServlet")
+                            .url("https://nanoda.ltd/InsertSmsServlet")
                             .post(body1)
                             .build();
 

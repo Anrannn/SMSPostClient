@@ -79,7 +79,7 @@ public class SmsListenService extends Service {
             public void run() {
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
-                        .url("https://nanoda.ltd/BeatServlet")
+                        .url("https://nanoda.ltd/BeatServlet?flag=client")
 //                        .url("http:192.168.50.13:8080/SMSServer_war_exploded/BeatServlet?flag=client")
                         .build();
 
