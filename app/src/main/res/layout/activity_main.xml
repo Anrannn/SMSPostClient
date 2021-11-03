@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="24sp"
+       android:text="已经发送"/>
+    <TextView
+        android:textSize="24sp"
+        android:text="NULL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/byteSize" />
+    <TextView
+        android:textSize="24sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最后发送时间为"/>
+    <TextView
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NULL"
+        android:id="@+id/lastPostTime"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Service状态"/>
+    <TextView
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:id="@+id/isActive"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复活"
+        android:id="@+id/start"/>
+
+</LinearLayout>
